@@ -41,6 +41,11 @@ This project is created in the context of the first capstone of the Microverse T
 [Live Demo Link](https://david-lafontant.github.io/capstone1/index.html)
 
 
+## Video Preview
+
+Video [Video](https://www.loom.com/share/9ad870ae58c843d9b355f8f282e2e3b3)
+
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.

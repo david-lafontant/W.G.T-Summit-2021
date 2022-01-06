@@ -310,10 +310,11 @@ header .navigation ul li:last-child {
   width: 100%;
   background-color: #f7f7f7;
   background-image: url(../assets/images/about_bg.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 100vh;
-  padding-top: 30vh;
+  height: 80vh;
+  top: 18vh;
+  padding-top: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -322,7 +323,7 @@ header .navigation ul li:last-child {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1rem;
-  padding-left: 15%;
+  padding-left: 11%;
   padding-right: 15%;
   border-bottom: thin solid #f3f3f3;
 }
@@ -374,7 +375,7 @@ header .navigation ul li:last-child {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1rem;
-  padding-top: 1rem;
+  padding-top: 8rem;
   padding-bottom: 2rem;
   padding-left: 15%;
   padding-right: 15%;

@@ -107,7 +107,7 @@ if ($(window).width() > 768) {
 
     speakerWrapper.appendChild(speakerItem);
 
-    existingNode1.parentNode.insertBefore(speakers, existingNode);
+    existingNode1.parentNode.insertBefore(speakers, existingNode1);
   }
 }
 

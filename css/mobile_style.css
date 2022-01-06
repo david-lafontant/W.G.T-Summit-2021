@@ -14,18 +14,17 @@ header nav .desktopMenu .navigation {
   position: fixed;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 1.5rem;
   z-index: 10;
   top: 0;
   right: 0;
   left: 0;
-
   /* transition: top 2s ease; */
   background-color: rgba(211, 211, 211, 0.5);
   -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   padding-top: 1rem;
   padding-left: 1.5rem;
   list-style: none;
@@ -59,11 +58,11 @@ header nav .desktopMenu .navigation .menu-link {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   gap: 1rem;
   padding-top: 15vh;
   overflow: hidden;
@@ -120,7 +119,7 @@ header nav .desktopMenu .navigation .menu-link {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto;
-  grid-template-columns: auto;
+      grid-template-columns: auto;
   gap: 1rem;
   padding-bottom: 1.5rem;
   background-color: #22252e;
@@ -150,12 +149,12 @@ header nav .desktopMenu .navigation .menu-link {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   background-color: #3c3f46;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 1.5rem;
   padding: 0.8rem;
 }
@@ -214,8 +213,8 @@ header nav .desktopMenu .navigation .menu-link {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 0.8rem;
 }
 
@@ -274,8 +273,8 @@ header nav .desktopMenu .navigation .menu-link {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 1rem;
   position: relative;
   width: 100%;
@@ -319,11 +318,11 @@ header nav .desktopMenu .navigation .menu-link {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 1rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
@@ -359,7 +358,7 @@ header nav .desktopMenu .navigation .menu-link {
 .pastSummits .summitOverlay {
   color: transparent;
   -webkit-backdrop-filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
-  backdrop-filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+          backdrop-filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -367,14 +366,14 @@ header nav .desktopMenu .navigation .menu-link {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 1rem;
 }
 
@@ -405,8 +404,8 @@ header nav .desktopMenu .navigation .menu-link {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #fff;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -431,8 +430,8 @@ header nav .desktopMenu .navigation .menu-link {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .presenters .wrapper .item {
@@ -444,14 +443,25 @@ header nav .desktopMenu .navigation .menu-link {
   gap: 0.5rem;
 }
 
+.presenters .wrapper .item .posterImage {
+  background-image: url(../assets/images/checker-1.png);
+  background-position: calc(top - 10px) calc(left - 10px);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 3%;
+}
+
 .presenters .wrapper .item .detail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 0.3rem;
 }
 
@@ -475,3 +485,4 @@ header nav .desktopMenu .navigation .menu-link {
 .presenters .wrapper .item .detail .descriptions {
   color: #272a31;
 }
+/*# sourceMappingURL=mobile_style.css.map */

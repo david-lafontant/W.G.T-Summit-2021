@@ -63,8 +63,8 @@ speakerWrapper.setAttribute('class', 'wrapper');
 speakers.appendChild(speakerWrapper);
 
 const parentNode = document.querySelector('body');
-const existingNode1 = document.querySelector(''.partners');
-const existingNode = document.querySelector(''.more');
+const existingNode1 = document.querySelector('.partners');
+const existingNode = document.querySelector('.more');
 
 if ($(window).width() > 768) {
   for (let num = zero; num < speakersData.length; num += one) {

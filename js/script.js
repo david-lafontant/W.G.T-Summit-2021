@@ -5,6 +5,7 @@ const open = document.querySelector('.open');
 const menuLinks = document.querySelectorAll('.menu-link');
 
 open.addEventListener('click', showNavbar);
+
 close.addEventListener('click', hideNavbar);
 menuLinks.forEach((item) => {
   item.addEventListener('click', hideNavbar);

@@ -51,7 +51,7 @@ const speakers = document.createElement('section');
 speakers.setAttribute('class', 'presenters');
 
 const feature = document.createElement('h2');
-feature.setAttribute('class', "speakersH1");
+feature.setAttribute('class', 'speakersH1');
 feature.textContent = 'Featured Speakers';
 speakers.appendChild(feature);
 
@@ -59,12 +59,12 @@ const hLine = document.createElement('hr');
 speakers.appendChild(hLine);
 
 const speakerWrapper = document.createElement('div');
-speakerWrapper.setAttribute('class', "wrapper");
+speakerWrapper.setAttribute('class', 'wrapper');
 speakers.appendChild(speakerWrapper);
 
-const parentNode = document.querySelector("body");
-const existingNode1 = document.querySelector(".partners");
-const existingNode = document.querySelector(".more");
+const parentNode = document.querySelector('body');
+const existingNode1 = document.querySelector(''.partners');
+const existingNode = document.querySelector(''.more');
 
 if ($(window).width() > 768) {
   for (let num = zero; num < speakersData.length; num += one) {
@@ -150,7 +150,7 @@ if ($(window).width() <= 768) {
 
   const btn = document.querySelector('.moreBtn');
 
-  btn.addEventListener("click", () => {
+  btn.addEventListener('click', () => {
     for (let num = two; num < speakersData.length; num += one) {
       const speakerItem = document.createElement('div');
       speakerItem.setAttribute('class', 'item');

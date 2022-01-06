@@ -189,5 +189,6 @@ if ($(window).width() <= 768) {
 
       existingNode.parentNode.insertBefore(speakers, existingNode);
     }
+    btn.style.display='none';
   });
 }

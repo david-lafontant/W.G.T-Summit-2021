@@ -54,8 +54,6 @@ header nav .desktopMenu .navigation .menu-link {
   background-image: url(../assets/images/mobile_intro_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -146,11 +144,7 @@ header nav .desktopMenu .navigation .menu-link {
 .program .programItem {
   width: 90%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   background-color: #3c3f46;
   -webkit-box-align: center;
@@ -209,8 +203,6 @@ header nav .desktopMenu .navigation .menu-link {
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 1.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -269,8 +261,6 @@ header nav .desktopMenu .navigation .menu-link {
 }
 
 .aboutLogo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -314,8 +304,6 @@ header nav .desktopMenu .navigation .menu-link {
 
 .pastSummits {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -362,8 +350,6 @@ header nav .desktopMenu .navigation .menu-link {
   backdrop-filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -400,8 +386,6 @@ header nav .desktopMenu .navigation .menu-link {
 }
 
 .presenters {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -426,8 +410,6 @@ header nav .desktopMenu .navigation .menu-link {
 }
 
 .presenters .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -436,8 +418,6 @@ header nav .desktopMenu .navigation .menu-link {
 }
 
 .presenters .wrapper .item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 90%;
   margin: 0.5rem auto;
@@ -456,8 +436,6 @@ header nav .desktopMenu .navigation .menu-link {
 }
 
 .presenters .wrapper .item .detail {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;

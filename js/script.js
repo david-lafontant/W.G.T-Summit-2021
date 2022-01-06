@@ -1,20 +1,20 @@
 // menu script
-const menu = document.querySelector(".navigation");
-const close = document.querySelector(".close");
-const open = document.querySelector(".open");
-const menuLinks = document.querySelectorAll(".menu-link");
+const menu = document.querySelector('.navigation');
+const close = document.querySelector('.close');
+const open = document.querySelector('.open');
+const menuLinks = document.querySelectorAll('.menu-link');
 
-open.addEventListener("click", showNavbar);
-close.addEventListener("click", hideNavbar);
+open.addEventListener('click', showNavbar);
+close.addEventListener('click', hideNavbar);
 menuLinks.forEach((item) => {
-  item.addEventListener("click", hideNavbar);
+  item.addEventListener('click', hideNavbar);
 });
 
 function showNavbar() {
-  menu.style.display = "flex";
-  menu.style.top = "0";
+  menu.style.display = 'flex';
+  menu.style.top = '0';
 }
 
 function hideNavbar() {
-  menu.style.top = "-100%";
+  menu.style.top = '-100%';
 }

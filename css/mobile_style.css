@@ -120,6 +120,7 @@ header nav .desktopMenu .navigation .menu-link {
   display: grid;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
+  padding-top: 2rem;
   gap: 1rem;
   padding-bottom: 1.5rem;
   background-color: #22252e;

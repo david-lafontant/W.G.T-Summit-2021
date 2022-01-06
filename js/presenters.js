@@ -72,49 +72,46 @@ const parentNode = document.querySelector('body');
 const existingNode1 = document.querySelector('.partners');
 const existingNode = document.querySelector('.more');
 
-if ($(window).width() > 768) {
-  for (let num = zero; num < speakersData.length; num += one) {
-    const speakerItem = document.createElement('div');
-    speakerItem.setAttribute('class', 'item');
+speakersData.forEach((elem, num) => {
+  const speakerItem = document.createElement('div');
+  speakerItem.setAttribute('class', 'item');
 
-    const poster = document.createElement('img');
-    poster.setAttribute('class', 'posterImage');
-    poster.setAttribute('src', speakersData[num].source);
-    poster.setAttribute('alt', speakersData[num].altText);
-    speakerItem.appendChild(poster);
+  const poster = document.createElement('img');
+  poster.setAttribute('class', 'posterImage');
+  poster.setAttribute('src', speakersData[num].source);
+  poster.setAttribute('alt', speakersData[num].altText);
+  speakerItem.appendChild(poster);
 
-    const details = document.createElement('div');
-    details.className = 'detail';
+  const details = document.createElement('div');
+  details.className = 'detail';
 
-    const theName = document.createElement('p');
-    theName.setAttribute('class', 'speakerName');
-    theName.textContent = speakersData[num].name;
-    details.appendChild(theName);
+  const theName = document.createElement('p');
+  theName.setAttribute('class', 'speakerName');
+  theName.textContent = speakersData[num].name;
+  details.appendChild(theName);
 
-    const speakerTitle = document.createElement('p');
-    speakerTitle.setAttribute('class', 'titleOfSpeaker');
-    speakerTitle.textContent = speakersData[num].title;
-    details.appendChild(speakerTitle);
+  const speakerTitle = document.createElement('p');
+  speakerTitle.setAttribute('class', 'titleOfSpeaker');
+  speakerTitle.textContent = speakersData[num].title;
+  details.appendChild(speakerTitle);
 
-    const line = document.createElement('hr');
-    line.setAttribute('class', 'hrLine');
-    details.appendChild(line);
+  const line = document.createElement('hr');
+  line.setAttribute('class', 'hrLine');
+  details.appendChild(line);
 
-    const info = document.createElement('p');
-    info.setAttribute('class', 'descriptions');
-    info.textContent = speakersData[num].description;
-    details.appendChild(info);
+  const info = document.createElement('p');
+  info.setAttribute('class', 'descriptions');
+  info.textContent = speakersData[num].description;
+  details.appendChild(info);
 
-    speakerItem.appendChild(details);
+  speakerItem.appendChild(details);
 
-    speakerWrapper.appendChild(speakerItem);
+  speakerWrapper.appendChild(speakerItem);
 
-    existingNode1.parentNode.insertBefore(speakers, existingNode1);
-  }
-}
+  existingNode1.parentNode.insertBefore(speakers, existingNode1);
+});
 
 if ($(window).width() <= 768) {
-  // do your stuff
   for (let num = zero; num < two; num += one) {
     const speakerItem = document.createElement('div');
     speakerItem.setAttribute('class', 'item');

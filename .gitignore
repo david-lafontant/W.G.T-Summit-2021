@@ -1,0 +1,7 @@
+node_modules/
+.vscode/
+scss/
+css/style.css.map
+css/mobile_style.css.map
+css/desktop_style.css.map
+.lighthouseci/

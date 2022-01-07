@@ -18,9 +18,7 @@
 
   #  WORLD GLOBALIZATION TRADE SUMMIT 2021
 
-This project is created in the context of the first capstone of the Microverse Training. For this project, as it is required by Microverse, I used the Cindy Shin template design. Two pages are created the home page and the about page and they are linked together. I The presenters section is created dynamically and the menu for the mobile version is also made with Javascript. Jquery is also used in the scripting. 
-
-# The event is this project is not real. It is created only in this capstone. The name of the presenters, their title, position and description are imaginary.
+World Globalization Trade Summit is an event organized to encourage trade and exchange around the world. This event is intended to promote free trade policy and evaluate the effective trade from different points of view. Top Scholars, Politics, Activists, and Business People are among the speakers of this event.
 
 ## Desktop version
 
